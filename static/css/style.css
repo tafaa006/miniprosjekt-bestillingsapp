@@ -30,8 +30,8 @@
     color: white;
     background-color: rgb(24, 186, 255);
     display: flex;
-    margin-left: 22%;
-    width: 50%;
+    margin-left: 29%;
+    width: 35%;
     justify-content: center;
     border-color: dimgray;
     border-width: 2%;
@@ -40,10 +40,30 @@
 h1{
     display: flex;
     justify-content: center;
+    font-size: 4vh;
+    font-family:sans-serif ;
+    font-weight: bolder;
+    padding-bottom: 7vh;
+    padding-top: 5vh;
 }
 
 .mid p{
     display: flex;
     justify-content: center;
     margin-top: 3%;
+}
+
+.Lenke{
+    text-decoration: none;
+    font-size: 3vh;
+    font-family:sans-serif ;
+    font-weight: bolder;
+}
+
+.bar{
+    border-radius: 5vh;
+    border-color: dimgray;
+    border-width: 2%;
+    padding: 1vh;
+    margin-bottom: 1vh;
 }

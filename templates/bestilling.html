@@ -4,29 +4,29 @@
 <form method="POST" class="form">
 
 <label for="navn">Navn:</label>
-<input type="text" id="navn" name="navn" required>
+<input type="text" id="navn" name="navn" class="bar" required>
 
 <label for="produkt">Produkt:</label>
-<select id="produkt" name="produkt" required>
+<select id="produkt" name="produkt" class="bar" required>
 {% for produkt in produkter %}
 <option value="{{ produkt }}">{{ produkt }}</option>
 {% endfor %}
 </select>
 
 <label for="storrelse">Størrelse:</label>
-<select id="storrelse" name="storrelse" required>
+<select id="storrelse" name="storrelse" class="bar"required>
 {% for storrelse in storrlser %}
 <option value="{{ storrelse }}">{{ storrelse }}</option>
 {% endfor %}
 </select>
 
 <label for="antall">Antall:</label>
-<input type="number" id="antall" name="antall" min="1" required>
+<input type="number" id="antall" name="antall" min="1" class="bar" required>
 
 <label for="kommentar">Kommentar(valgfritt):</label>
-<input type="text" id="kommentar" name="kommentar">
+<input type="text" id="kommentar" name="kommentar" class="bar">
 
-<button type="submit">Send</button>
+<button type="submit" class="bar">Send</button>
 
 </form>
 {% endblock %}
