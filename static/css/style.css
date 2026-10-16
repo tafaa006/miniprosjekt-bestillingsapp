@@ -1,0 +1,49 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 22%;
+    padding: 2%;
+    background-color: rgb(0, 166, 255);
+    border-color: rgb(68, 68, 68);
+    color: white;
+    border-width: 2%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: -1.3vh;
+    margin-left: -1.3vh;
+    margin-right: -1.3vh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+.nav a{
+    color: white;
+}
+
+#best{
+    padding: 3%;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(24, 186, 255);
+    display: flex;
+    margin-left: 22%;
+    width: 50%;
+    justify-content: center;
+    border-color: dimgray;
+    border-width: 2%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.mid p{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}

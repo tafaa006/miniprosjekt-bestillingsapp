@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}bekreftelse{% endblock %}
+{% block content %}
+<h1>Takk for bestillingen, {{ navn }}</h1>
+<div class="mid">
+<p>Produkt: {{ produkt }}</p>
+<p>Størrelse: {{ storrelse }}</p>
+<p>Antall: {{ antall }}</p>
+{% if kommentar %}
+<p>Kommentar: {{ kommentar }}</p>
+{% endif %}
+</div>
+{% endblock %}
